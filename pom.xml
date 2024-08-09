@@ -115,9 +115,16 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/MartinDiCe/msvc-commons</url>
+		</repository>
+	</distributionManagement>
+
 	<!-- SCM Information -->
 	<scm>
-		<connection>scm:git:git://your.repo.url/project.git</connection>
+		<connection>scm:git:git://github.com/MartinDiCe/msvc-commons.git</connection>
 		<developerConnection>scm:git:ssh://github.com/MartinDiCe/msvc-commons.git</developerConnection>
 		<url>https://github.com/MartinDiCe/msvc-commons</url>
 		<tag>HEAD</tag>
